@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gotchic;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(wallpaper_main.jpeg);
+  height: 110vh;
+  background-size: auto;
+  background-position: center;
+}
+
+ul {
+  float:right;
+  list-style-type: none;
+  margin-top: 25px; 
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.4s ease;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.logo img {
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-top: 25px;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title h1{
+  color: #fff;
+  font-size: 70px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
+
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(gbackground.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: Century Gotchic;
+}
+
+.reservation-box {
+  max-width: 350px;
+  border: 1px solid #ced4da;
+  margin: 10% auto 0;
+  padding: 0 15px 15px;
+}
+
+.reservation-form label {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.label {
+  color: #fff;
+}
+
+input:: placeholder {
+  color: #fff !important;
+}
+
+.input-grp {
+  width: 151px;
+  display: inline-block;
+}
+
+.form-control {
+  font-size: 12px;
+  border-radius: 0;
+  width: 151px;
+  color: #fff !important;
+  background: transparent !important;
+  box-shadow: none;
+}
+
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button,
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.select-date::-webkit-calendar-picker-indicator
+{
+  background: transparent !important;
+
+}
+
+
+.book {
+  width: 100%;
+  padding: 9px 0;
+  font-size: 12px;
+  border: 1px solid #ced4da !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.book:hover {
+  background: #fff !important;
+  color: #000 !important;
+  transition: 0.5s;
+}

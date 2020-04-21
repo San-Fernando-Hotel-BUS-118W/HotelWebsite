@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>SAN FERNANDO SQUARE HOTEL</title>
+      
+      <link rel="stylesheet" type="text/css" href="reservationstyle.css">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   </head>
+      <body>
+
+            <header>
+            <div class = "main">
+                  <div class = "logo">
+                        <img src="logo.jpeg">
+                  </div>
+
+
+                  <ul>
+                        <li class = "active"><a href="index.html">Home</a></li>
+                        <li><a href="#.html">Pricing</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href = "our_team.html">Our Team</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
+
+                  </ul>
+            </div>
+
+      <br><br><br>
+
+      <form action="confirmation.html" method="get">
+      <div class="reservation-box">
+      
+      <div class="label">
+      <label>First Name:</label>
+      <input type="text" class="form-control">
+      <label>Last Name:</label>
+      <input type="text" class="form-control">
+
+      <label>Email:</label>
+      <input type="text" class="form-control">
+      <label>Phone Number:</label>
+      <input type="phone" class="form-control">
+
+      <div class="input-grp">
+      <label>Check-In Date:</label>
+      <input type="date" class="form-control select-date">
+      </div>
+
+      <div class="input-grp">
+      <label>Check-Out Date:</label>
+      <input type="date" class="form-control select-date">
+      </div>
+
+      <div class="input-grp">
+      <label>Adults:</label>
+      <input type="number" class="form-control" value="1">
+      </div>
+
+      <div class="input-grp">
+      <label>Children:</label>
+      <input type="number" class="form-control" value="0">
+      </div>
+
+      <div class="input-grp">
+      <label>Room Type:</label>
+      <select class="custom-select">
+      <option value="1">Standard</option>
+      <option value="2">Deluxe</option>
+      <option value="3">Executive</option>
+      <option value="4">Presidential</option>
+      </select>
+      </div>
+      </form>
+
+      <div class="input-grp">
+      <button type="submit" formmethod="post" class="btn btn-primary book">Book Now</button>
+      </div>
+      </div>
+      </div>
+
+  </body>
+</html>
