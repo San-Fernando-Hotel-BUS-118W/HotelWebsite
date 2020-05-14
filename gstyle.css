@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gotchic;
+}
+
+header {
+  background-color: black;
+  height: 15vh;
+}
+
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	margin-top: 8px;
+}
+
+body{
+	background-image: url(gbackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul{
+	float:right;
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+  margin-top: 25px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.gtitle {
+  text-align: center;
+  background-color: black;
+  font-size: 18;
+  color: White;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ohotel {
+  width: 300px;
+  height: 300px;
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.amen {
+  text-align: center;
+  background-color: black;
+  font-size: 18;
+  color: White;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.acontainer {
+  width: 500px;
+  height: 500px;
+  float: none;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.acontainer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.acontainer .abtnl {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.acontainer .abtnl:hover {
+  background-color: black;
+}
+
+.acontainer .abtnr {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.acontainer .abtnr:hover {
+  background-color: black;
+}
+
+.rooms {
+  text-align: center;
+  background-color: black;
+  font-size: 18;
+  color: White;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rcontainer {
+  width: 500px;
+  height: 500px;
+  float: none;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.rcontainer img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.rcontainer .rbtnl {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.rcontainer .rbtnl:hover {
+  background-color: black;
+}
+
+.rcontainer .rbtnr {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.rcontainer .rbtnr:hover {
+  background-color: black;
+}
+
+.map {
+  text-align: center;
+  background-color: black;
+  font-size: 18;
+  color: White;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

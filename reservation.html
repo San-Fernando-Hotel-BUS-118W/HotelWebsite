@@ -17,10 +17,11 @@
 
 
                   <ul>
-                        <li class = "active"><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="price_calculation.html">Pricing</a></li>
-                        <li><a href="reservation.html">Reservation</a></li>
-                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li class="active"><a href="reservation.html">Reservation</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="special_offers.html">Special Offers</a></li>
                         <li><a href="about_us.html">About Us</a></li>
                         <li><a href = "our_team.html">Our Team</a></li>
                         <li><a href="contact_us.html">Contact Us</a></li>
@@ -40,18 +41,18 @@
       <input type="text" class="form-control">
 
       <label>Email:</label>
-      <input type="text" class="form-control">
+      <input type="text" class="form-control" required="Email">
       <label>Phone Number:</label>
       <input type="phone" class="form-control">
 
       <div class="input-grp">
       <label>Check-In Date:</label>
-      <input type="date" class="form-control select-date">
+      <input type="date" class="form-control select-date" value="dd/mm/yyyy">
       </div>
 
       <div class="input-grp">
       <label>Check-Out Date:</label>
-      <input type="date" class="form-control select-date">
+      <input type="date" class="form-control select-date" value="dd/mm/yyyy">
       </div>
 
       <div class="input-grp">
@@ -75,7 +76,7 @@
       </form>
 
       <div class="input-grp">
-      <button type="submit" formmethod="post" class="btn btn-primary book">Book Now</button>
+      <button type="submit" formmethod="post" class="btn btn-primary book">Reserve Now!</button>
       </div>
       </div>
       </div>

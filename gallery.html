@@ -1,2 +1,148 @@
-Sebastian
+<!DOCTYPE html>
+<html>
 
+<head>
+<title>Gallery</title>
+<link rel="stylesheet" type="text/css" href="gstyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+</head>
+
+<body>
+<header>
+		<div class = "main">
+			<div class = "logo">
+				<img src="logo.jpeg">
+			</div>
+
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+        <li><a href="price_calculation.html">Pricing</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li class = "active"><a href="gallery.html">Gallery</a></li>
+        <li><a href="special_offers.html">Special Offers</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href = "our_team.html">Our Team</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+
+			</ul>
+		</div>
+
+</header>
+<br><br><br><br>
+
+<h2 class="gtitle">Welcome to our Gallery</h2>
+
+<br><br><br>
+
+<div class="ohotel" style="max-width:500px">
+  <img class="outside" src="a.jpg" style="width:100%">
+  <img class="outside" src="c.jpg" style="width:100%">
+  <img class="outside" src="d.jpg" style="width:100%">
+  <img class="outside" src="f.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("outside");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000);
+}
+</script>
+
+<br><br><br><br>
+
+<h2 class="amen">Our amenities:</h2>
+
+<br><br><br>
+
+<div class="acontainer" style="max-height:500px">
+  <img class="amenities" src="a1.jpg"  style="width:100%">
+  <img class="amenities" src="a3.jpg"  style="width:100%">
+  <img class="amenities" src="a4.jpg"  style="width:100%">
+  <img class="amenities" src="a5.jpg"  style="width:100%">
+  <img class="amenities" src="a6.jpg"  style="width:100%">
+
+  <button class="abtnl" onclick="aplusDivs(-1)">&#10094;</button>
+  <button class="abtnr" onclick="aplusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var rslideIndex = 1;
+ashowDivs(rslideIndex);
+
+function aplusDivs(n) {
+  ashowDivs(rslideIndex += n);
+}
+
+function ashowDivs(n) {
+  var j;
+  var x = document.getElementsByClassName("amenities");
+  if (n > x.length) {rslideIndex = 1}
+  if (n < 1) {rslideIndex = x.length}
+  for (j = 0; j < x.length; j++) {
+    x[j].style.display = "none";
+  }
+  x[rslideIndex-1].style.display = "block";
+}
+</script>
+
+<br><br><br><br>
+
+<h2 class="rooms">Our rooms:</h2>
+
+<br><br><br>
+
+<div class="rcontainer" style="max-width:500px">
+  <img class="Roomslides" src="r1.jpeg">
+  <img class="Roomslides" src="r2.jpeg">
+  <img class="Roomslides" src="r3.jpg">
+  <img class="Roomslides" src="r4.jpg">
+  <img class="Roomslides" src="r5.jpg">
+
+  <button class="rbtnl" onclick="rplusDivs(-1)">&#10094;</button>
+  <button class="rbtnr" onclick="rplusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var rslideIndex = 1;
+rshowDivs(rslideIndex);
+
+function rplusDivs(n) {
+  rshowDivs(rslideIndex += n);
+}
+
+function rshowDivs(n) {
+  var j;
+  var x = document.getElementsByClassName("Roomslides");
+  if (n > x.length) {rslideIndex = 1}
+  if (n < 1) {rslideIndex = x.length}
+  for (j = 0; j < x.length; j++) {
+    x[j].style.display = "none";
+  }
+  x[rslideIndex-1].style.display = "block";
+}
+</script>
+
+<br><br><br><br>
+
+<h2 class="map">Directions:</h2>
+
+<br><br><br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1586.195957157203!2d-121.89288520988153!3d37.33322929529849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcca4bd582623%3A0xa5f733a3b9839216!2s157%20W%20San%20Fernando%20St%2C%20San%20Jose%2C%20CA%2095113!5e0!3m2!1sen!2sus!4v1587153400763!5m2!1sen!2sus"
+width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+<br><br><br><br><br><br><br>
+</body>
+</html>
